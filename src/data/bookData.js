@@ -1,0 +1,12 @@
+export const books = [
+    { id: 1, title: "Ponniyin Selvan", author: "Kalki Krishnamurthy", price: 299, inStock: true, genre: "Historical Fiction", isFavorite: true },
+    { id: 2, title: "Sivagamiyin Sabatham", author: "Kalki Krishnamurthy", price: 275, inStock: true, genre: "Historical Fiction", isFavorite: true },
+    { id: 3, title: "Thirukkural", author: "Thiruvalluvar", price: 150, inStock: true, genre: "Classics (Tamil)", isFavorite: false },
+    { id: 4, title: "Vikramadhithyan Kadhaigal", author: "Lakshmi", price: 160, inStock: true, genre: "Folklore", isFavorite: true },
+    { id: 5, title: "Thanneer Desam", author: "Vairamuthu", price: 240, inStock: true, genre: "Poetic Novel / Social", isFavorite: false },
+    { id: 6, title: "Naragam", author: "Nanjil Nadan", price: 180, inStock: false, genre: "Philosophical Fiction", isFavorite: false },
+    { id: 7, title: "Verkadha Kadhai", author: "Jeyamohan", price: 230, inStock: true, genre: "Philosophical Fiction", isFavorite: true },
+    { id: 8, title: "Vaanam Vasapadum", author: "Charu Nivedita", price: 270, inStock: false, genre: "Charu Nivedita", isFavorite: true },
+    { id: 9, title: "Irumbu Kuthirai", author: "Rajesh Kumar", price: 150, inStock: true, genre: "Crime Thriller", isFavorite: true },
+    { id: 10, title: "Parthiban Kanavu", author: "Kalki Krishnamurthy", price: 250, inStock: false, genre: "Historical Fiction", isFavorite: false },
+];

@@ -1,0 +1,10 @@
+.box {
+  width: 30vh;
+  height: 32vh;
+  border-radius: 5px;
+  background-color: rgb(117, 193, 164);
+  column-gap: 2vh;
+  align-content: center;
+  padding: 10px;
+  color: #030303;
+}

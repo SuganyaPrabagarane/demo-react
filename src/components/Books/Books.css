@@ -1,0 +1,38 @@
+.book {
+  width: 40vh;
+  min-height: 35vh;
+  border-radius: 10px;
+  background-color: #7f8c8d;
+  column-gap: 2vh;
+  align-content: center;
+  padding: 10px;
+  color: #030303;
+}
+
+.bookList {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.buttons {
+  border-top: 1px solid #dbdbdb;
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(77, 216, 119);
+  margin-right: 5px;
+  padding: 10px;
+}
+
+input {
+  width: 20vh;
+  height: 3vh;
+  border-radius: 5px;
+}
+
+label {
+  margin: 20px;
+}
