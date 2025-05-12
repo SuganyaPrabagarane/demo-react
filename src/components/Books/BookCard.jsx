@@ -44,19 +44,23 @@ const [newPrice, setNewPrice] = useState(price);
     return(
 
       <>
-      <div className="book">
+        <div className="book">
           <h2> {title} </h2>
           <p className='favourite' onClick = {() =>onToggleFavorite(id)}>{isFavorite ? "❤️": "♡" }</p>
-          <p>Author: {author}</p>
+          <p> {author}</p>
+          <p> {genre}</p> 
 
           <div className="bookCard-content">
           {!isEditing ?  
-          (<p>Price: {price} €</p>) :
+          (<p className='price'> {price} €</p>) :
           (<input type='text' value={newPrice} onChange={(e => setNewPrice(e.target.value))}></input>)}
           </div>
 
-          <p>Genere: {genre}</p> 
-          <p onClick = {() =>onToggleStock(id)}>Stock: {inStock ? 'In Stock 👍':'Out of stock 👎'}</p>
+          
+          <div className= {`stock ${inStock ? 'in-stock' : 'out-of-stock'}`}>
+          <p  onClick = {() =>onToggleStock(id)}>{inStock ? 'In Stock 👍':'Out of stock 👎'}</p>
+          </div>
+
           
           {/* <button onClick={()=> onEventHandler(id)}>Read More</button>   passing the id in child component*/}
           <div className='buttons'>

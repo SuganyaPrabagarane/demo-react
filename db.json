@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Ponniyin Selvan",
       "author": "Kalki Krishnamurthy",
-      "price": "50",
+      "price": "75",
       "genre": "Historical Fiction",
       "inStock": true,
       "isFavorite": true
@@ -13,7 +13,7 @@
       "id": "2",
       "title": "Sivagamiyin Sabatham",
       "author": "Kalki Krishnamurthy",
-      "price": "100",
+      "price": "50",
       "genre": "Historical Fiction",
       "inStock": true,
       "isFavorite": true
@@ -89,15 +89,9 @@
       "inStock": false,
       "genre": "Historical Fiction",
       "isFavorite": false
-    },
-    {
-      "id": "01d2",
-      "title": "test",
-      "author": "test",
-      "price": 12,
-      "genre": "test",
-      "inStock": true,
-      "isFavorite": false
     }
+   
+  
+    
   ]
 }

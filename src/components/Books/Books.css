@@ -1,38 +1,101 @@
 .book {
-  width: 40vh;
-  min-height: 35vh;
+  width: 35vh;
+  min-height: 30vh;
   border-radius: 10px;
-  background-color: #7f8c8d;
+  background-color: whitesmoke;
   column-gap: 2vh;
-  align-content: center;
-  padding: 10px;
-  color: #030303;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 10px 10px 20px;
+  color: rgb(1, 1, 14);
+  position: relative;
+  line-height: 30px;
 }
 
 .bookList {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 35px;
+}
+
+.stock {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 16vh;
+  height: 5vh;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.in-stock {
+  background-color: rgb(5, 119, 5);
+}
+
+.out-of-stock {
+  background-color: rgb(228, 60, 60);
+}
+
+.favourite {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.bookCard-content {
+  height: 5vh;
+  width: 35vh;
+  position: relative;
+  padding-bottom: 20px;
+
+  border-bottom: 1.5px solid #100857;
+}
+
+.bookCard-content input {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 20vh;
+  height: 4vh;
+  border-radius: 5px;
+}
+
+.price {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-weight: 500;
 }
 
 .buttons {
-  border-top: 1px solid #dbdbdb;
-  padding: 10px;
+  padding: 15px;
 }
 
 button {
-  background-color: rgb(77, 216, 119);
+  background-color: rgba(81, 79, 78, 0.966);
+  color: white;
+  min-width: 10vh;
   margin-right: 5px;
+  margin-bottom: 5px;
   padding: 10px;
-}
-
-input {
-  width: 20vh;
-  height: 3vh;
-  border-radius: 5px;
 }
 
 label {
   margin: 20px;
+}
+
+.books {
+  color: white;
+  padding: 20px 10px 30px 10px;
+  line-height: 40px;
+}
+
+.books input {
+  width: 25vh;
+  height: 4vh;
+  border-radius: 5px;
 }

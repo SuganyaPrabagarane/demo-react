@@ -7,10 +7,15 @@ form {
 form input {
   display: block;
   width: 350px;
+  height: 4vh;
+  border-radius: 5px;
   margin: 1rem 0;
 }
 
 button[type="submit"] {
-  width: 382px;
+  width: 350px;
   margin: 0;
+  border-radius: 5px;
+  background-color: rgb(47, 136, 48);
+  font-weight: 600;
 }

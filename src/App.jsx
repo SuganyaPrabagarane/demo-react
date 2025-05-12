@@ -3,15 +3,11 @@ import {use, useState} from 'react';
 import { books } from "./data/bookData";
 import Root from "./pages/Root";
 import About from "./pages/About";
-import Books from "./pages/Books";
-import Persons from "./pages/Persons";
 import AddBookForm from "./pages/AddBookForm";
-import BoxList from "./components/Box/BoxList";
-
 import BookList from './components/Books/BookList';
 import NotFound from "./pages/NotFound";
-import Example from "./pages/Example";
 import AxiosExample from "./pages/AxiosExample";
+import Todos from "./components/Todos/Todos";
 import './App.css';
 
 
@@ -33,9 +29,8 @@ const App =()=>{
         { path: "/about", element: <About /> },
         { path: "/book", element: <BookList booksData = {booksData} setBooksData = {setBooksData} /> },
         { path: "/add", element: <AddBookForm onAddBook = {addBookHandler} /> },
-        { path: "/persons", element: <Persons /> },
-        { path: "/example", element: <Example /> },
         { path: "/axios", element: <AxiosExample /> },
+        { path: "/todos", element: <Todos /> },
         { path: '/*', element: <NotFound />},
       ]},
     

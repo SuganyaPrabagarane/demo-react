@@ -1,0 +1,63 @@
+.todo-card {
+  width: 35vh;
+  min-height: 35vh;
+  border-radius: 10px;
+  background-color: #eaeeee;
+  column-gap: 2vh;
+  align-content: center;
+  padding: 10px;
+  color: #030303;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.image {
+  padding: 20px;
+}
+
+.todo-list {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filters {
+  padding: 20px 10px 20px 10px;
+}
+
+select {
+  width: 20vh;
+  height: 4vh;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+label {
+  font-weight: 500;
+}
+
+/* Loading image */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.loading {
+  width: 40px;
+  height: 40px;
+  border: 4px dotted #fffefe;
+  border-top-color: #333;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

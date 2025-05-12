@@ -53,6 +53,8 @@ const BookList =() =>{
             <label htmlFor='search'>Search</label>
             <input type='text' id='search' name='search' value={searchValue} onChange = {searchHandler}></input>
             <p>Your search word is: {searchValue}</p>
+
+        </div>
             
 
             <div className="bookList">
@@ -64,7 +66,7 @@ const BookList =() =>{
                 <p>No matching books found. Try another search.</p>
               )}
               
-        </div>
+       
         </div>
 
         </>

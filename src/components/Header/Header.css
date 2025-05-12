@@ -27,3 +27,8 @@ a:hover {
   color: orange;
   border-bottom: 1px dashed white;
 }
+
+body {
+  background-color: #213547;
+  color: white;
+}
