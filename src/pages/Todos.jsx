@@ -1,5 +1,5 @@
 import { useEffect,useState } from "react";
-import TodoCard from "./TodoCard";
+import TodoCard from "../components/Todos/TodoCard";
 import axios from "axios";
  
 const Todos=()=>{

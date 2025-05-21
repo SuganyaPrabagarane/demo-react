@@ -16,23 +16,23 @@
       "price": "50",
       "genre": "Historical Fiction",
       "inStock": true,
-      "isFavorite": true
+      "isFavorite": false
     },
     {
       "id": "3",
       "title": "Thirukkural",
       "author": "Thiruvalluvar",
-      "price": 150,
-      "inStock": true,
+      "price": "100",
+      "inStock": false,
       "genre": "Classics (Tamil)",
-      "isFavorite": false
+      "isFavorite": true
     },
     {
       "id": "4",
       "title": "Vikramadhithyan Kadhaigal",
       "author": "Lakshmi",
       "price": 160,
-      "inStock": true,
+      "inStock": false,
       "genre": "Folklore",
       "isFavorite": true
     },
@@ -68,7 +68,7 @@
       "title": "Vaanam Vasapadum",
       "author": "Charu Nivedita",
       "price": 270,
-      "inStock": false,
+      "inStock": true,
       "genre": "Charu Nivedita",
       "isFavorite": true
     },
@@ -85,13 +85,19 @@
       "id": "10",
       "title": "Parthiban Kanavu",
       "author": "Kalki Krishnamurthy",
-      "price": 250,
+      "price": 100,
       "inStock": false,
       "genre": "Historical Fiction",
       "isFavorite": false
+    },
+    {
+      "id": "4e7e",
+      "title": "test",
+      "author": "test",
+      "price": 123,
+      "genre": "test",
+      "inStock": true,
+      "isFavorite": false
     }
-   
-  
-    
   ]
 }

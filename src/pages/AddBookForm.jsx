@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import {useNavigate} from 'react-router';
 import axios from 'axios';
-
 import './AddBookForm.css';
 
 const AddBookForm = ({onAddBook}) =>{
@@ -20,18 +19,16 @@ const AddBookForm = ({onAddBook}) =>{
     }
 
     const handleSubmit = (e) =>{
-        e.preventDefault();
+        e.preventDefault();  
 
         const newBook = {...formData, price:parseFloat(formData.price), inStock:true , isFavorite:false};
-        axios.post('http://localhost:3001/books', newBook)
+        axios.post('http://localhost:3002/books', newBook)
         .then((res) => {
-            console.log(res);
-        });
-
-        onAddBook(newBook);
-        navigate('/book');
-
-        setFormData({title:'', author:'', genre:'', price:''});
+            onAddBook(res.data); // passing the response data (new book) from the server to APP component
+            navigate('/book');
+            setFormData({title:'', author:'', genre:'', price:''});
+        })
+        .catch(err => console.error('Failed to add book', err));
     };
 
     return(
